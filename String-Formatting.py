@@ -36,7 +36,6 @@ Sample Input
 17
 
 Sample Output
-
     1     1     1     1
     2     2     2    10
     3     3     3    11
@@ -54,9 +53,10 @@ Sample Output
    15    17     F  1111
    16    20    10 10000
    17    21    11 10001
-
 '''
 # Answer
+
+
 def print_formatted(number):
     for i in range(1, number + 1):
         a = len(f"{number:b}")
