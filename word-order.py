@@ -6,7 +6,7 @@ Constraints:
 The sum of the lengths of all the words do not exceed
 All the words are composed of lowercase English letters only.
 Input Format
-The first line contains the integer,
+The first line contains the integer
 .
 The next
 lines each contain a word.
@@ -28,6 +28,7 @@ Explanation
 There are
 distinct words. Here, "bcdef" appears twice in the input at the first and last positions. The other words appear once each. The order of the first appearances are "bcdef", "abcdefg" and "bcde" which corresponds to the output.
 '''
+
 from collections import Counter
 
 
